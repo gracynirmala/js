@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>largest numbers</title>
+    <script type="text/javascript">
+    function largest(n1,n2){
+        var n1;
+        var n2;
+        n1=parseInt(document.getElementById("num1").value);
+        n2=parseInt(document.getElementById("num2").value);
+        if(n1>n2){
+            document.write(+n1 ,"is greater than" +n2);
+        
+        }
+        else{
+            document.write(+n2,"is greater than"+n1);
+        }
+
+    }
+</script>
+</head>
+
+<body>
+    <center>
+    <h1>Largest of two numbers</h1>
+number1:<input type="number1"  id="num1"/><br>
+number2:<input type="number2" id="num2"/><br>
+<input type="button" value="Answer" onclick="largest()"/>
+</center>
+</body>
+</html>
